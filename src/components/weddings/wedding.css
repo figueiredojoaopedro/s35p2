@@ -1,0 +1,95 @@
+.wedd-section{
+    background: linear-gradient(to left, #fff, #a8a8a8);
+}
+.wedd-section *{
+    box-sizing: border-box;
+}
+.wedd-image{
+    width: 100%;
+    height: auto;
+    margin: 0; padding: 0;
+}
+.wedd-image img{
+    width: 100%;
+    transition: all 0.5s ease-out;
+}
+.wedd-image img:hover{
+    transform: scale(1.01);
+}
+.videos > iframe{
+    transition: all 0.5s ease-in;
+}
+.videos > iframe:hover{
+    transform: scale(1.01);
+}
+.wedd-gallery{
+    cursor: pointer;
+    padding: 0 14rem; margin: 0;
+    padding-bottom: 5rem;
+    display:grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.wedd-title{
+    width: fit-content;
+    text-align: center; 
+    padding: 3rem 14rem;
+}
+.wedd-title h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; font-size: 48pt;
+    padding: 2rem 0;
+    color: #191919;
+    transition: all 0.5s ease-out;
+}
+.wedd-title h4:hover{
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 2rem 2rem;
+    font-size: 40pt;
+    font-weight: 600;
+}
+@media screen and (max-width:960px){
+    .wedd-title{
+        width: fit-content;
+        text-align: center;
+        margin: 0 auto; padding:2rem;
+    }
+    .wedd-title h4{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600; font-size: 20pt;
+        margin: 0; margin-top: 0.5rem;padding: 1rem;
+        color: #191919;
+        transition: all 0.5s ease-out;
+        text-align: center;
+    }
+    .wedd-title h4:hover{
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+        padding: 1rem 1rem;
+        text-align: center;
+        font-size: 20pt;
+    }
+    .wedd-gallery{
+        cursor: pointer;
+        padding: 1rem; margin: 0;
+        display:grid;
+        gap: 0.1rem;
+        grid-template-columns: repeat(1, minmax(100px,100%));
+        justify-items: center;
+        align-items: center;
+    }
+    .wedd-image img{
+        max-width: 100%;
+        height: auto;
+        transition: all 0.5s ease-out;
+    }
+    .wedd-image{
+        width: fit-content;
+        height: auto;
+        margin: 0; padding: 0;
+    }
+}
