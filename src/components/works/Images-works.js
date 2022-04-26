@@ -1,6 +1,5 @@
 import image1 from "./fashion-film.png";
 import image2 from "./frames-para-o-site-da-super.png";
-import image3 from "./video-clipe.jpg";
 
 const Images = [
     {

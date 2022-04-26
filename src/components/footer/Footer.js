@@ -13,7 +13,7 @@ class Footer extends Component {
                     </div>
                     <div className="text-center p-3" style={{"backgroundColor": "rgba(0, 0, 0, 0.2)"}}>
                         © 2020 Copyright:
-                        <a className="text-white" href="#">super35pictures.com</a>
+                        <a className="text-white" href="super35pictures.com.br">super35pictures.com</a>
                         <p className="text-center">comercial@super35pictures.com.br</p>
                     </div>
                 </footer>
