@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import wedding from "./wedding_pic.jpeg";
+import aboutPic from "./about-pic.jpg";
 import "./about.css";
 
 class About extends Component {
@@ -9,7 +9,7 @@ class About extends Component {
                 <h2 className="about-us">Sobre</h2>
                 <div className="image-text-container">
                     <div className="image-container">
-                        <img className="wedding-image" src={wedding} alt="Couple holding hands"></img>
+                        <img className="wedding-image" src={aboutPic} alt="Couple holding hands"></img>
                     </div>
                     <p className="para">A Super 35 Pictures nasceu em 2020, um ano de incertezas e em meio a uma pandemia global.
 Uma empresa formada por 4 sócios da área do audiovisual, surgiu no mercado trazendo soluções completas para os seus clientes.
