@@ -51,6 +51,14 @@
     font-size: 40pt;
     font-weight: 600;
 }
+@media screen and (max-width: 1500px){
+    .wedd-title{
+        padding: 3rem 6rem;
+    }
+    .wedd-gallery{
+        padding: 3rem 6rem;
+    }
+}
 @media screen and (max-width:960px){
     .wedd-title{
         width: fit-content;
